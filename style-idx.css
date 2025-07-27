@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,900;1,900&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+*{
+    /* Removes default spacing */
+    margin: 0;
+    padding: 0;
+
+    /* this makes the padding and border included in the total width and height of the elements */
+    box-sizing: border-box;
+}
+
+
+/*This css is for all pages*/
+
+body{
+    font-family: "Open sans";
+    background-color:rgb(255 184 74);
+}
+
+img {
+    max-width: 100%;
+}
+.hero_enviro{
+    max-width: 100%;
+}
+.slogan{
+    color: white;
+    background-color: rgb(54 186 146) ;
+    text-align:center;
+    padding: 2% 1% 2.3% 1%;
+    p{
+        font-size: 1.1rem;
+    }
+}
+
+
+footer{
+    background-color:rgb(64 121 185);
+    text-align: center;
+    color:white;
+}
+
+/* This css is for the Home page*/
+
+.herotext{
+    text-align:center;
+    background-color: rgb(54 186 146) ;
+    color: white;
+    font-style: italic;
+    font-weight: 400;
+    padding: 3% 2% 3% 2%;
+    font-size: 1.4rem;
+    margin-left: 4%;
+    margin-right: 20%;
+    display: flex;
+}
+
+.hero{position: relative;
+background-image:"images/solar_house1.jpg";}
+
+.nav__item{
+    padding-bottom: 5%;
+    font-size: 1.6rem;
+    font-weight: 710;
+    text-align: center;
+}
+
+.home_nav__link{
+    font-size: 2.3rem;
+    font-weight: 780;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 32%;
+    padding-bottom: 1rem;
+}
+
+header{background-color: rgb(245 228 97);
+
+h1{text-align: center;
+padding-top: 5%;
+font-weight: 800;
+font-size: 2.7rem;}}
+
+.hero_title{
+    padding: 7% 26% 7% 0%;
+    
+}
+
+.title_articles{
+    background-color: rgb(255 184 74);
+}
+
+.works{
+    background-color:rgb(255 137 74);
+    margin-top: 1rem;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    p{
+        font-size: 1.3em;
+        padding: 0% 4% 4% 4.7%;
+    }
+
+}
+
+.money{
+    background-color:rgb(255 137 74);
+    margin-top: 1rem;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    p{
+        font-size: 1.3em;
+        padding: 0% 4% 4% 4.7%;
+    }
+}
+
+.enviroment{
+    background-color:rgb(255 137 74);
+    margin-top: 1rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 4%;
+    p{
+        font-size: 1.3em;
+        padding: 0% 4% 4% 4.7%;
+    }
+}
+
+
+
+.howitworks{
+    padding: 3.7em 2em 2em 2em;
+    h2{
+        font-size: 2em;
+        padding: 3.2% 4.7% 4% 4.7%
+    }
+
+}
+
+.howitmoneys{
+    padding: 2em 2em 2em 2em;
+    h2{
+        font-size: 2em;
+        padding: 3.2% 4.7% 4% 4.7%
+    }
+}
+
+.howitenviroments{
+    padding: 2em 2em 2em 2em;
+    h2{
+        font-size: 2em;
+        padding: 3.2% 4.7% 4% 4.7%
+    }
+
+
+}
+
+
+/* This css is for all articles*/
+
+.article_title{
+    text-align:center;
+    font-size: 3.3rem;
+    font-weight: 999;
+    padding: 1% 2.3% 2% 2.3%;
+}
+
+.article_para{
+    /* text-align:center; */
+    font-size: 1.51rem;
+    font-weight: 500;
+    margin: 0% 3% 2.6% 2.5%;
+}
+.article{
+    background-color: rgb(255 184 74);
+}
+.article_mid_para{
+    padding: 0.9% 0.9% 1% 5%;
+    font-size: 1.51rem;
+    font-weight: 500;
+}
+
+.article_end_para{
+    font-size: 1.51rem;
+    font-weight: 500;
+    margin: 0.5% 3% 0% 2.5%;
+    padding-bottom: 1%;
+}
+
+.p1{
+    background-color:rgb(255 137 74);
+    border-radius: 0.9em;
+    padding: 0.5rem;
+}
+.p2{
+    background-color:rgb(255 137 74);
+    border-radius: 0.9em;
+    padding: 0.5rem;
+}
+.p3{
+    background-color:rgb(255 137 74);
+    border-radius: 0.9em;
+    padding: 0.5rem;
+}
+.p4{
+    background-color:rgb(255 137 74);
+    border-radius: 0.9em;
+    padding: 0.5rem;
+}
+
+table{
+    margin-top: 1em;
+}
+
+.point1{
+    color: white;
+    background-color:rgb(255 137 74);
+    border-radius: 50%;
+    padding:0.05em 0.5em 0.1em 0.5em;
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 800;
+    height: 3.7rem;
+}
+.point2{
+    color: white;
+    background-color:rgb(255 137 74);
+    border-radius: 50%;
+    padding:0.05em 0.5em 0.1em 0.5em;
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 800;
+    height: 3.7rem;
+}
+.point3{
+    color: white;
+    background-color:rgb(255 137 74);
+    border-radius: 50%;
+    padding:0.05em 0.5em 0.1em 0.5em;
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 800;
+    height: 3.7rem;
+
+}
+.point4{
+    color: white;
+    background-color:rgb(255 137 74);
+    border-radius: 50%;
+    padding:0em 0.5em 0% 0.5em;
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 800;
+    height: 3.7rem;
+}
+
+.first_tr{
+    max-width: 1000px;
+    display: flex;
+    flex-direction:row;
+    gap: 0.4em;
+    padding-bottom: 0.4em;
+    padding-right: 1.5em;
+}
+.second_tr{
+    max-width: 1000px;
+    display: flex;
+    flex-direction:row;
+    gap: 0.4em;
+    padding-bottom: 0.4em;
+    padding-right: 1.5em;
+}
+.third_tr{
+    max-width: 1000px;
+    display: flex;
+    flex-direction:row;
+    gap: 0.4em;
+    padding-bottom: 0.4em;
+    padding-right: 1.5em;
+}
+.fourth_tr{
+    max-width: 1000px;
+    display: flex;
+    flex-direction:row;
+    gap: 0.4em;
+    padding-bottom: 0.4em;
+    padding-right: 1.5em; 
+}
+
+
+
+/* <705 size is mobile version */
+
+@media (min-width: 780px) {
+    body {
+        background-color: rgb(64 121 185);
+    }
+    .slogan{padding: 1% 1% 1% 1%;
+        p{
+            font-size: 1.9rem;
+        }
+    }
+    .herotext{
+        font-weight: 400;
+        padding: 2.3% 2% 2.3% 2%;
+        font-size: 2rem;
+        margin-left: 4%;
+        margin-right: 50%;
+    }
+    .graph{text-align: center;
+    margin-bottom: 40px;}
+    .hero{text-align: center;}
+    .hero_enviro{text-align: center;
+        img{width: 60rem;
+            margin-left: auto;
+            margin-right: auto;}}
+    .howitenviroments{text-align: center;
+        img{width: 60rem;
+            margin-left: auto;
+            margin-right: auto;}}
+    .howitmoneys{text-align: center;
+        img{width: 60rem;
+            margin-left: auto;
+            margin-right: auto;}}
+    .howitworks{text-align: center;
+    img{width: 60rem;
+        margin-left: auto;
+        margin-right: auto;}}
+    .money{
+        p{font-size: 2.3em;
+            padding: 0% 4% 4% 0.7%;
+        }
+        h2{font-size: 3.3em;
+            padding: 1.7% 4.7% 4% 0%}}
+    .enviroment{
+        p{font-size: 2.3em;
+            padding: 0% 4% 4% 0.7%;
+        }
+        h2{font-size: 3.3em;
+            padding: 1.7% 4.7% 4% 0%
+        }}
+    .works{
+        p{font-size: 2.3em;
+            padding: 0% 4% 4% 0%;
+        }
+        h2{font-size: 3.3em;
+            padding: 1.7% 4.7% 4% 0%}
+        }
+    .article_mid_para{text-align: center;}
+    table{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .first_table{margin-left: 26%;}
+    .hero_enviro{
+        width: 55rem;
+        margin-left: auto;
+        margin-right: auto;}
+    .graph{width: 80rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header{
+        display:flex;
+        position:sticky}
+    .logo{width:55%;
+        }
+
+    .nav__list{
+        list-style:none;
+    }
+    .nav__item{float: left;
+    /* padding: 0rem 3rem 0% 1rem; */
+margin:2rem 0% 1rem 3rem;
+text-align: center;}
+    }
+
